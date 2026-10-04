@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="NetRate helps freelancers calculate take-home income, hourly rates, and project prices after platform and payment fees.">
+<meta name="robots" content="index,follow"><link rel="canonical" href="https://netrate.co/">
+<meta property="og:title" content="NetRate — Know What You Keep"><meta property="og:description" content="Free freelance pricing and take-home calculators.">
+<title>NetRate — Know What You Keep</title><link rel="stylesheet" href="styles.css">
+</head><body>
+<header><div class="wrap nav"><a class="brand" href="index.html">Net<span>Rate</span></a><nav><a href="#tools">Tools</a><a href="#how">How it works</a><a href="guides.html">Guides</a></nav></div></header>
+<main>
+<section class="hero wrap"><div><p class="eyebrow">FREE FREELANCE MONEY TOOLKIT</p><h1>Know what you’ll <em>actually</em> keep.</h1><p class="sub">Calculate take-home income, work backwards from your target, and price freelance projects with clearer numbers.</p><div class="actions"><a class="cta" href="#tools">Start calculating →</a><a class="secondary" href="hourly-rate-calculator.html">Find my hourly rate</a></div><p class="trust">No signup · Runs in your browser · Estimates only</p></div><div class="hero-card"><span>Example</span><strong>$1,000</strong><small>project price</small><div class="mini-line"><span>Fees & costs</span><b>− $115</b></div><div class="mini-line total"><span>Estimated take-home</span><b>$885</b></div></div></section>
+<section id="tools" class="wrap"><div class="section-head"><div><p class="eyebrow">THE TOOLKIT</p><h2>Start with the number you need.</h2></div></div><div class="tool-grid">
+<a class="tool" href="#calculator"><span>01</span><h3>Take-home Calculator</h3><p>See what you keep after platform and payment costs.</p><b>Open tool →</b></a>
+<a class="tool" href="hourly-rate-calculator.html"><span>02</span><h3>Hourly Rate Calculator</h3><p>Turn your income goal and available hours into a sustainable rate.</p><b>Open tool →</b></a>
+<a class="tool" href="project-pricing-calculator.html"><span>03</span><h3>Project Pricing Calculator</h3><p>Work backwards from the amount you want to take home.</p><b>Open tool →</b></a>
+<a class="tool" href="fee-calculators.html"><span>04</span><h3>Platform Fee Calculators</h3><p>Separate pages for common freelance marketplaces.</p><b>Explore →</b></a>
+</div></section>
+<section id="calculator" class="wrap grid"><div class="card"><div class="tabs"><button class="tab active" data-mode="takehome">Take-home</button><button class="tab" data-mode="price">Price to charge</button></div>
+<div class="field"><label for="amount" id="amountLabel">Client/project amount</label><div class="money"><span>$</span><input id="amount" type="number" min="0" step="0.01" value="1000"></div></div>
+<div class="field"><label for="platform">Platform / fee type</label><select id="platform"><option value="custom">Custom fee</option><option value="upwork">Upwork — enter your contract fee</option><option value="freelancer-fixed">Freelancer.com — fixed-price</option><option value="freelancer-hourly">Freelancer.com — hourly</option><option value="direct">Direct client — 0% platform fee</option></select></div>
+<div class="field"><label for="customFee">Platform fee (%)</label><input id="customFee" type="number" min="0" max="100" step="0.1" value="10"><small id="feeHelp">Use the exact fee shown by your platform or contract.</small></div>
+<div class="field"><label for="payment">Payment cost (%)</label><input id="payment" type="number" min="0" max="100" step="0.1" value="1.5"></div>
+<div class="field"><label for="fixed">Fixed payment cost</label><div class="money"><span>$</span><input id="fixed" type="number" min="0" step="0.01" value="0"></div></div>
+<button class="calculate" id="calculate">Calculate</button></div>
+<div class="card result" aria-live="polite"><p class="eyebrow">YOUR ESTIMATE</p><div id="result"></div><div class="breakdown" id="breakdown"></div><p class="note">Estimates only. Platform fees, payment costs, taxes and currency conversion can vary. Verify the exact terms before relying on a result.</p></div></section>
+<section id="how" class="wrap feature"><p class="eyebrow">WHY NETRATE</p><h2>Useful numbers, without the spreadsheet headache.</h2><div class="features"><article><b>Work backwards</b><p>Tell us what you want to keep and calculate the gross price required.</p></article><article><b>Use your real fee</b><p>We don't pretend every freelancer has the same platform rate.</p></article><article><b>Private by default</b><p>Core calculations run locally in your browser. No account is required.</p></article></div></section>
+<section class="wrap source"><h2>Fee accuracy matters</h2><p>NetRate uses fee inputs because marketplace fees can vary by contract, project type, country and account. Always verify the exact fee shown by the platform before using a result.</p><p class="links"><a href="https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee" rel="noopener">Upwork fee information ↗</a><a href="https://www.freelancer.com/feesandcharges" rel="noopener">Freelancer.com fee information ↗</a></p></section>
+</main><footer><div class="wrap"><span>© 2026 NetRate</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="contact.html">Contact</a></span></div></footer><script src="app.js"></script></body></html>
