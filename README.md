@@ -1,4 +1,4 @@
-# NetRate MVP 0.2
+# TakeHomeKit MVP 0.2
 
 Static, mobile-first freelance pricing toolkit.
 
@@ -13,7 +13,7 @@ Static, mobile-first freelance pricing toolkit.
 - robots.txt + sitemap.xml
 
 ## Before launch
-1. Replace `netrate.co` in canonical, robots and sitemap.
+1. Replace `TakeHomeKit.com` in canonical, robots and sitemap.
 2. Replace `alyankhanii42@gmail.com` in Privacy and Contact.
 3. Verify current platform fee terms and update any platform-specific pages.
 4. Add your analytics/Search Console IDs if desired.
